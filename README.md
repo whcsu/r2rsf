@@ -10,7 +10,6 @@ The proposed R-squared random survival forest(R2RSF) is implemented within the f
 
 Download the package via github and the usage is similar to that ranger
 
-
 library(rangernew)
 
 library(survival)
@@ -31,6 +30,4 @@ colnames(mydata)[rii]=c("time","status")
 
 n=dim(mydata)[1]
 
-
 r2rsf=rangernew(Surv(time, status) ~ ., data = mydata,splitrule = "r2",num.trees = 500,num.threads = 2)      
-
