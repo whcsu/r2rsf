@@ -8,4 +8,7 @@ Wang Hong, Chen Xiaolin, and Li Gang. Survival Forests with R-Squared Splitting 
  
 The proposed R-squared random survival forest(R2RSF) is implemented within the framework of the ”ranger” R package (Wright and Ziegler, 2017).
 
-Download the package via github and 
+Download the package via github and the usage is similar to that ranger
+library(rangernew)
+r2rsf=rangernew(Surv(time, status) ~ ., data = trset,splitrule = "r2",num.trees = 500,num.threads = 2)      
+r1pre<-predict(r2rsf,tesetx)
