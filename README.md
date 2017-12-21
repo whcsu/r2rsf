@@ -1,4 +1,4 @@
-#Survival Forests with R-Squared Splitting Rules
+Survival Forests with R-Squared Splitting Rules
 
 Wang Hong, Chen Xiaolin, and Li Gang. Survival Forests with R-Squared Splitting Rules. Journal of Computational Biology. December 2017, https://doi.org/10.1089/cmb.2017.0107
 
